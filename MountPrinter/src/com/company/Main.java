@@ -48,6 +48,9 @@ public class Main {
             case 12:
                 monthString = "December";
                 break;
+            default:
+                System.out.println("Error");
+                break;
         }
 
         String textMount = String.format("Mount is: %s", monthString);
